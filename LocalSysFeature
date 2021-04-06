@@ -7,21 +7,16 @@
                             new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoItemPage",Path = "/:site/factoring/creditapptable/:id/relatedinfo/purchasetablepurchase/:id/relatedinfo/memotrans/:id"},
                             new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoListPage",Path = "/:site/factoring/creditapptable/:id/relatedinfo/purchasetablepurchase/:id/relatedinfo/memotrans/"}
                         }
-<<<<<<< HEAD
                     },       
                      new SysFeatureGroupControllerMappingView
-            {
-                ControllerName = "MessengerTable",
-                GroupId = "MESSENGER_TABLE",
-                FeatureType = FeatureType.PRIMARY,
-                SysFeatureTables = new List<SysFeatureTableView>()
-                        {
-                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MessengerTableItemPage",Path = "/:site/masterinformation/messengertable/:id"},
-                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MessengerTableListPage",Path = "/:site/masterinformation/messengertable/"}
-                        }
-            },
-=======
+                    {
+                        ControllerName = "MessengerTable",
+                        GroupId = "MESSENGER_TABLE",
+                        FeatureType = FeatureType.PRIMARY,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                                {
+                                    new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MessengerTableItemPage",Path = "/:site/masterinformation/messengertable/:id"},
+                                    new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MessengerTableListPage",Path = "/:site/masterinformation/messengertable/"}
+                                }
                     },
 
-                    aetdjzhdrthdfbsrtedhsrgtf
->>>>>>> 750ead57cb458f599d282d373989597a71a9b11a
