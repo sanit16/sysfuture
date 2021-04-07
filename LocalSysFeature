@@ -49,3 +49,14 @@
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "TaxInvoiceListmPage",Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/relatedinfo/taxinvoice/"},
                     }
                 },
+                new SysFeatureGroupControllerMappingView {
+                    ControllerName = "CreditAppTable",
+                    GroupId = "FACTORING_CREDIT_APP_TABLE_PURCHASE_TABLE_PURCHASE_PURCHASE_LINE_PURCHASE-CHILD_INTEREST_REALIZED_TRANS",
+                    FeatureType = FeatureType.RELATEDINFO,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "InterestRealizedTransListPage",Path = "/:site/factoring/creditapptable/:id/relatedinfo/purchasetablepurchase/:id/purchaselinepurchase-child/:id/relatedinfo/interestrealizedtrans/"},
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "InterestRealizedTransItemPage",Path = "/:site/factoring/creditapptable/:id/relatedinfo/purchasetablepurchase/:id/purchaselinepurchase-child/:id/relatedinfo/interestrealizedtrans/:id"}
+
+                        }
+                    },
