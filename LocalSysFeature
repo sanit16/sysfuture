@@ -39,3 +39,13 @@
                                 new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyGuarantorFromCaPage",Path = "/:site/factoring/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/copyguarantorfromca/"},
                             }
                 },
+                new SysFeatureGroupControllerMappingView {
+                    ControllerName = "InvoiceTable",
+                    GroupId = "INVOICE_TABLE_TAX_INVOICE",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "TaxInvoiceItemPage",Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/relatedinfo/taxinvoice/:id"},
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "TaxInvoiceListmPage",Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/relatedinfo/taxinvoice/"},
+                    }
+                },
