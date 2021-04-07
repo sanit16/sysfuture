@@ -19,4 +19,23 @@
                                     new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MessengerTableListPage",Path = "/:site/masterinformation/messengertable/"}
                                 }
                     },
-
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "FACTORING_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GUARANTOR_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyGuarantorFromCaPage",Path = "/:site/factoring/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/copyguarantorfromca/"},
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "FACTORING_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GUARANTOR_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyGuarantorFromCaPage",Path = "/:site/factoring/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/copyguarantorfromca/"},
+                            }
+                },
