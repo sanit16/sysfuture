@@ -172,3 +172,65 @@ new SysFeatureGroupControllerMappingView
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ReceiptLineLineItemPage",Path = "/:site/invoiceandcollection/inquiry/receipttable/:id/receiptline-child/:id"},
                     }
                 },
+                new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "FACTORING_MAIN_AGREEMENT_TABLE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "AddendumPage",Path = "/:site/factoring/allmainagreementtable/:id/function/Addendum/"},
+                       
+                        }
+                },
+                  new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "BOnd_MAIN_AGREEMENT_TABLE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "AddendumPage",Path = "/:site/bond/allmainagreementtable/:id/function/Addendum/"},
+                             
+                        }
+                },
+                       new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "BOnd_MAIN_AGREEMENT_TABLE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "AddendumPage",Path = "/:site/bond/allmainagreementtable/:id/function/Addendum/"},
+               
+                        }
+                },
+
+                       new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "PROJECT_FINANCE_MAIN_AGREEMENT_TABLE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "AddendumPage",Path = "/:site/projectfinance/allmainagreementtable/:id/function/Addendum/"},
+
+                        }
+                },
+                          new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "HIRE_PURCHASE_MAIN_AGREEMENT_TABLE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "AddendumPage",Path = "/:site/hirepuchase/allmainagreementtable/:id/function/Addendum/"},
+
+                        }
+                },
+
+                          new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LC_DLC_MAIN_AGREEMENT_TABLE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "AddendumPage",Path = "/:site/lcdlc/allmainagreementtable/:id/function/Addendum/"},
+
+                        }
+                },
