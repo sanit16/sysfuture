@@ -19,7 +19,7 @@
                                     new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MessengerTableListPage",Path = "/:site/masterinformation/messengertable/"}
                                 }
                     },
-                new SysFeatureGroupControllerMappingView
+new SysFeatureGroupControllerMappingView
                 {
                     ControllerName = "MainAgreementTable",
                     GroupId = "FACTORING_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GUARANTOR_FROM_CA",
@@ -37,6 +37,106 @@
                     SysFeatureTables = new List<SysFeatureTableView>()
                             {
                                 new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyGuarantorFromCaPage",Path = "/:site/factoring/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/copyguarantorfromca/"},
+                            }
+                },
+                              new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "BOND_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GUARANTOR_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyGuarantorFromCaPage",Path = "/:site/bond/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/copyguarantorfromca/"},
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "BOND_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GUARANTOR_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyGuarantorFromCaPage",Path = "/:site/bond/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/copyguarantorfromca/"},
+                            }
+                },
+                              new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "HIREPURCHASE_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GUARANTOR_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyGuarantorFromCaPage",Path = "/:site/hirepurchase/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/copyguarantorfromca/"},
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "HIREPURCHASE_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GUARANTOR_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyGuarantorFromCaPage",Path = "/:site/hirepurchase/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/copyguarantorfromca/"},
+                            }
+                },
+                              new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LEASING_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GUARANTOR_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyGuarantorFromCaPage",Path = "/:site/leasing/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/copyguarantorfromca/"},
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LEASING_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GUARANTOR_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyGuarantorFromCaPage",Path = "/:site/leasing/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/copyguarantorfromca/"},
+                            }
+                },
+                              new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LCDLC_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GUARANTOR_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyGuarantorFromCaPage",Path = "/:site/lcdlc/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/copyguarantorfromca/"},
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LCDLC_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GUARANTOR_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyGuarantorFromCaPage",Path = "/:site/lcdlc/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/copyguarantorfromca/"},
+                            }
+                },
+                              new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "PROJECTFINANCE_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GUARANTOR_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyGuarantorFromCaPage",Path = "/:site/projectfinance/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/copyguarantorfromca/"},
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "PROJECTFINANCE_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GUARANTOR_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyGuarantorFromCaPage",Path = "/:site/projectfinance/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/copyguarantorfromca/"},
                             }
                 },
                 new SysFeatureGroupControllerMappingView {
