@@ -184,7 +184,7 @@ new SysFeatureGroupControllerMappingView
                 },
                   new SysFeatureGroupControllerMappingView {
                     ControllerName = "MainAgreementTable",
-                    GroupId = "BOnd_MAIN_AGREEMENT_TABLE_ADDENDUM",
+                    GroupId = "BOND_MAIN_AGREEMENT_TABLE_ADDENDUM",
                     FeatureType = FeatureType.FUNCTION,
                         SysFeatureTables = new List<SysFeatureTableView>()
                         {
@@ -192,16 +192,7 @@ new SysFeatureGroupControllerMappingView
                              
                         }
                 },
-                       new SysFeatureGroupControllerMappingView {
-                    ControllerName = "MainAgreementTable",
-                    GroupId = "BOnd_MAIN_AGREEMENT_TABLE_ADDENDUM",
-                    FeatureType = FeatureType.FUNCTION,
-                        SysFeatureTables = new List<SysFeatureTableView>()
-                        {
-                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "AddendumPage",Path = "/:site/bond/allmainagreementtable/:id/function/Addendum/"},
-               
-                        }
-                },
+                     
 
                        new SysFeatureGroupControllerMappingView {
                     ControllerName = "MainAgreementTable",
