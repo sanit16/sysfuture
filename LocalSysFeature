@@ -60,3 +60,15 @@
 
                         }
                     },
+                                    new SysFeatureGroupControllerMappingView {
+                    ControllerName = "ReceiptTable",
+                    GroupId = "RECEIPT_TABLE",
+                    FeatureType = FeatureType.PRIMARY,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ReceiptTableItemPage",Path = "/:site/invoiceandcollection/inquiry/receipttable/:id"},
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ReceiptTableListPage",Path = "/:site/invoiceandcollection/inquiry/receipttable/"},
+                        new SysFeatureTableView { ParentFeatureId = "ReceiptTableItemPage", FeatureId = "ReceiptLineListPage",Path = "/:site/invoiceandcollection/inquiry/receipttable/:id"},
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ReceiptLineLineItemPage",Path = "/:site/invoiceandcollection/inquiry/receipttable/:id/receiptline-child/:id"},
+                    }
+                },
