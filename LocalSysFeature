@@ -225,3 +225,135 @@ new SysFeatureGroupControllerMappingView
 
                         }
                 },
+new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "GuarantorAgreementTable",
+                    GroupId = "BOND_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_EXTEND",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendItemPage",Path = "/:site/bond/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendListPage",Path = "/:site/bond/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/"}
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "GuarantorAgreementTable",
+                    GroupId = "FACTORING_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_EXTEND",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendItemPage",Path = "/:site/factoring/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendListPage",Path = "/:site/factoring/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/"}
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "GuarantorAgreementTable",
+                    GroupId = "HIRE_PURCHASE_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_EXTEND",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendItemPage",Path = "/:site/hirepurchase/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendListPage",Path = "/:site/hirepurchase/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/"}
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "GuarantorAgreementTable",
+                    GroupId = "LC_DLC_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_EXTEND",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendItemPage",Path = "/:site/lcdlc/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendListPage",Path = "/:site/lcdlc/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/"}
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "GuarantorAgreementTable",
+                    GroupId = "LEASING_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_EXTEND",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendItemPage",Path = "/:site/leasing/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendListPage",Path = "/:site/leasing/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/"}
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "GuarantorAgreementTable",
+                    GroupId = "PROJECT_FINANCE_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_EXTEND",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendItemPage",Path = "/:site/projectfinance/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendListPage",Path = "/:site/projectfinance/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/"}
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "GuarantorAgreementTable",
+                    GroupId = "BOND_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_EXTEND",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendItemPage",Path = "/:site/bond/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendListPage",Path = "/:site/bond/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/"}
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "GuarantorAgreementTable",
+                    GroupId = "FACTORING_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_EXTEND",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendItemPage",Path = "/:site/factoring/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendListPage",Path = "/:site/factoring/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/"}
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "GuarantorAgreementTable",
+                    GroupId = "HIRE_PURCHASE_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_EXTEND",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendItemPage",Path = "/:site/hirepurchase/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendListPage",Path = "/:site/hirepurchase/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/"}
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "GuarantorAgreementTable",
+                    GroupId = "LC_DLC_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_EXTEND",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendItemPage",Path = "/:site/lcdlc/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendListPage",Path = "/:site/lcdlc/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/"}
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "GuarantorAgreementTable",
+                    GroupId = "LEASING_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_EXTEND",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendItemPage",Path = "/:site/leasing/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendListPage",Path = "/:site/leasing/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/"}
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "GuarantorAgreementTable",
+                    GroupId = "PROJECT_FINANCE_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_EXTEND",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendItemPage",Path = "/:site/projectfinance/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendListPage",Path = "/:site/projectfinance/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/"}
+                            }
+                },
