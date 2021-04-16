@@ -380,7 +380,7 @@ new SysFeatureGroupControllerMappingView
                               new SysFeatureGroupControllerMappingView
                 {
                     ControllerName = "MainAgreementTable",
-                    GroupId = "BOND_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GENERATE_EXTEND_GUARANTOR",
+                    GroupId = "BOND_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_GENERATE_EXTEND_GUARANTOR",
                     FeatureType = FeatureType.FUNCTION,
                     SysFeatureTables = new List<SysFeatureTableView>()
                             {
@@ -390,7 +390,7 @@ new SysFeatureGroupControllerMappingView
                 new SysFeatureGroupControllerMappingView
                 {
                     ControllerName = "MainAgreementTable",
-                    GroupId = "BOND_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GENERATE_EXTEND_GUARANTOR",
+                    GroupId = "BOND_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_GENERATE_EXTEND_GUARANTOR",
                     FeatureType = FeatureType.FUNCTION,
                     SysFeatureTables = new List<SysFeatureTableView>()
                             {
@@ -420,7 +420,7 @@ new SysFeatureGroupControllerMappingView
                               new SysFeatureGroupControllerMappingView
                 {
                     ControllerName = "MainAgreementTable",
-                    GroupId = "LEASING_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GENERATE_EXTEND_GUARANTOR",
+                    GroupId = "LEASING_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_GENERATE_EXTEND_GUARANTOR",
                     FeatureType = FeatureType.FUNCTION,
                     SysFeatureTables = new List<SysFeatureTableView>()
                             {
@@ -430,7 +430,7 @@ new SysFeatureGroupControllerMappingView
                 new SysFeatureGroupControllerMappingView
                 {
                     ControllerName = "MainAgreementTable",
-                    GroupId = "LEASING_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GENERATE_EXTEND_GUARANTOR",
+                    GroupId = "LEASING_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_GENERATE_EXTEND_GUARANTOR",
                     FeatureType = FeatureType.FUNCTION,
                     SysFeatureTables = new List<SysFeatureTableView>()
                             {
@@ -440,7 +440,7 @@ new SysFeatureGroupControllerMappingView
                               new SysFeatureGroupControllerMappingView
                 {
                     ControllerName = "MainAgreementTable",
-                    GroupId = "LCDLC_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GENERATE_EXTEND_GUARANTOR",
+                    GroupId = "LCDLC_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_GENERATE_EXTEND_GUARANTOR",
                     FeatureType = FeatureType.FUNCTION,
                     SysFeatureTables = new List<SysFeatureTableView>()
                             {
@@ -450,7 +450,7 @@ new SysFeatureGroupControllerMappingView
                 new SysFeatureGroupControllerMappingView
                 {
                     ControllerName = "MainAgreementTable",
-                    GroupId = "LCDLC_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GENERATE_EXTEND_GUARANTOR",
+                    GroupId = "LCDLC_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_GENERATE_EXTEND_GUARANTOR",
                     FeatureType = FeatureType.FUNCTION,
                     SysFeatureTables = new List<SysFeatureTableView>()
                             {
