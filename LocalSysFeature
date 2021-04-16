@@ -357,3 +357,123 @@ new SysFeatureGroupControllerMappingView
                                 new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ExtendListPage",Path = "/:site/projectfinance/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/relatedinfo/extend/"}
                             }
                 },
+                 new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "FACTORING_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_GENERATE_EXTEND_GUARANTOR",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenerateExtendGuarantorPage",Path = "/:site/factoring/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/generateextendguarantor/"},
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "FACTORING_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_GENERATE_EXTEND_GUARANTOR",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenerateExtendGuarantorPage",Path = "/:site/factoring/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/generateextendguarantor/"},
+                            }
+                },
+                              new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "BOND_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GENERATE_EXTEND_GUARANTOR",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenerateExtendGuarantorPage",Path = "/:site/bond/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/generateextendguarantor/"},
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "BOND_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GENERATE_EXTEND_GUARANTOR",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenerateExtendGuarantorPage",Path = "/:site/bond/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/generateextendguarantor/"},
+                            }
+                },
+                              new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "HIREPURCHASE_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_GENERATE_EXTEND_GUARANTOR",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenerateExtendGuarantorPage",Path = "/:site/hirepurchase/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/generateextendguarantor/"},
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "HIREPURCHASE_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_GENERATE_EXTEND_GUARANTOR",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenerateExtendGuarantorPage",Path = "/:site/hirepurchase/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/generateextendguarantor/"},
+                            }
+                },
+                              new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LEASING_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GENERATE_EXTEND_GUARANTOR",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenerateExtendGuarantorPage",Path = "/:site/leasing/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/generateextendguarantor/"},
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LEASING_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GENERATE_EXTEND_GUARANTOR",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenerateExtendGuarantorPage",Path = "/:site/leasing/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/generateextendguarantor/"},
+                            }
+                },
+                              new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LCDLC_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GENERATE_EXTEND_GUARANTOR",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenerateExtendGuarantorPage",Path = "/:site/lcdlc/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/generateextendguarantor/"},
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LCDLC_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_COPY_GENERATE_EXTEND_GUARANTOR",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenerateExtendGuarantorPage",Path = "/:site/lcdlc/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/generateextendguarantor/"},
+                            }
+                },
+                              new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "PROJECTFINANCE_NEW_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_GENERATE_EXTEND_GUARANTOR",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenerateExtendGuarantorPage",Path = "/:site/projectfinance/newmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/generateextendguarantor/"},
+                            }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "PROJECTFINANCE_ALL_MAIN_AGREEMENT_TABLE_GUARANTOR_AGREEMENT_TABLE_GENERATE_EXTEND_GUARANTOR",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenerateExtendGuarantorPage",Path = "/:site/projectfinance/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/generateextendguarantor/"},
+                            }
+                },
