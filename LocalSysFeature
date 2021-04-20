@@ -477,3 +477,15 @@ new SysFeatureGroupControllerMappingView
                                 new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenerateExtendGuarantorPage",Path = "/:site/projectfinance/allmainagreementtable/mainagreementtable/:id/relatedinfo/guarantoragreementtable/:id/function/generateextendguarantor/"},
                             }
                 },
+                new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MessengerJobTable",
+                    GroupId = "MESSENGER_JOB_TEBLE",
+                    FeatureType = FeatureType.PRIMARY,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MessengerJobTableItemPage",Path = "/:site/invoiceandcollection/messenger/messengerjobtable/:id"},
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MessengerJobTableListPage",Path = "/:site/invoiceandcollection/messenger/messengerjobtable/"},
+                      //  new SysFeatureTableView { ParentFeatureId = "InvoiceTableItemPage", FeatureId = "InvoiceLineListPage",Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id"},
+                      //  new SysFeatureTableView { ParentFeatureId = null, FeatureId = "InvoiceLineItemPage",Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/invoiceline-child/:id"},
+                    }
+                },
