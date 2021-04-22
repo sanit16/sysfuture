@@ -489,3 +489,13 @@ new SysFeatureGroupControllerMappingView
                       //  new SysFeatureTableView { ParentFeatureId = null, FeatureId = "InvoiceLineItemPage",Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/invoiceline-child/:id"},
                     }
                 },
+                 {
+                    ControllerName = "InquiryPurchaseLineOutstanding",
+                    GroupId = "COLLECTION_FOLLOW_UP_BUYER_RECEIPT_TABLE",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "BuyerReceiptTableItemPage",Path = "/:site/invoiceandcollection/inquiry/inquirypurchaselineoutstanding/:id/relatedinfo/collectionfollowup/:id/relatedinfo/buyerreceipttable/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "BuyerReceiptTableListPage",Path = "/:site/invoiceandcollection/inquiry/inquirypurchaselineoutstanding/:id/relatedinfo/collectionfollowup/:id/relatedinfo/buyerreceipttable/"}
+                            } 
+                },
