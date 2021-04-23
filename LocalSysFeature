@@ -499,3 +499,124 @@ new SysFeatureGroupControllerMappingView
                                 new SysFeatureTableView { ParentFeatureId = null, FeatureId = "BuyerReceiptTableListPage",Path = "/:site/invoiceandcollection/inquiry/inquirypurchaselineoutstanding/:id/relatedinfo/collectionfollowup/:id/relatedinfo/buyerreceipttable/"}
                             } 
                 },
+                  new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "FACTORING_ALL_MAIN_AGREEMENT_TABLE_MAIN_AGREEMENT_TABLE_NOTICE_OF_CANCELLATION",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {                                                                                                       
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "NoticeOfCancellationPage",Path = "/:site/factoring/allmainagreementtable/mainagreementtable/:id/function/noticeofcancellation/"},
+
+                        }
+                },
+  new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "FACTORING_NEW_MAIN_AGREEMENT_TABLE_MAIN_AGREEMENT_TABLE_NOTICE_OF_CANCELLATION",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {                                                                                                       
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "NoticeOfCancellationPage",Path = "/:site/factoring/newmainagreementtable/mainagreementtable/:id/function/noticeofcancellation/"},
+
+                        }
+                },
+  new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "BOND_NEW_MAIN_AGREEMENT_TABLE_MAIN_AGREEMENT_TABLE_NOTICE_OF_CANCELLATION",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {                                                                                                       
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "NoticeOfCancellationPage",Path = "/:site/bond/newmainagreementtable/mainagreementtable/:id/function/noticeofcancellation/"},
+
+                        }
+                },
+  new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "BOND_ALL_MAIN_AGREEMENT_TABLE_MAIN_AGREEMENT_TABLE_NOTICE_OF_CANCELLATION",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {                                                                                                       
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "NoticeOfCancellationPage",Path = "/:site/bond/allmainagreementtable/mainagreementtable/:id/function/noticeofcancellation/"},
+
+                        }
+                },
+  new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "HIRE_PURCHASE_NEW_MAIN_AGREEMENT_TABLE_MAIN_AGREEMENT_TABLE_NOTICE_OF_CANCELLATION",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {                                                                                                       
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "NoticeOfCancellationPage",Path = "/:site/hirepurchase/newmainagreementtable/mainagreementtable/:id/function/noticeofcancellation/"},
+
+                        }
+                },
+new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "HIRE_PURCHASE_ALL_MAIN_AGREEMENT_TABLE_MAIN_AGREEMENT_TABLE_NOTICE_OF_CANCELLATION",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {                                                                                                       
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "NoticeOfCancellationPage",Path = "/:site/hirepurchase/allmainagreementtable/mainagreementtable/:id/function/noticeofcancellation/"},
+
+                        }
+                },
+new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LEASING_NEW_MAIN_AGREEMENT_TABLE_MAIN_AGREEMENT_TABLE_NOTICE_OF_CANCELLATION",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {                                                                                                       
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "NoticeOfCancellationPage",Path = "/:site/leasing/newmainagreementtable/mainagreementtable/:id/function/noticeofcancellation/"},
+
+                        }
+                },
+new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LEASING_ALL_MAIN_AGREEMENT_TABLE_MAIN_AGREEMENT_TABLE_NOTICE_OF_CANCELLATION",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {                                                                                                       
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "NoticeOfCancellationPage",Path = "/:site/leasing/allmainagreementtable/mainagreementtable/:id/function/noticeofcancellation/"},
+
+                        }
+                },
+new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LC_DLC_ALL_MAIN_AGREEMENT_TABLE_MAIN_AGREEMENT_TABLE_NOTICE_OF_CANCELLATION",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {                                                                                                       
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "NoticeOfCancellationPage",Path = "/:site/lcdlc/allmainagreementtable/mainagreementtable/:id/function/noticeofcancellation/"},
+
+                        }
+                },
+new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LC_DLC_NEW_MAIN_AGREEMENT_TABLE_MAIN_AGREEMENT_TABLE_NOTICE_OF_CANCELLATION",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {                                                                                                       
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "NoticeOfCancellationPage",Path = "/:site/lcdlc/newmainagreementtable/mainagreementtable/:id/function/noticeofcancellation/"},
+
+                        }
+                },
+
+new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "PROJECT_FINANCE_NEW_MAIN_AGREEMENT_TABLE_MAIN_AGREEMENT_TABLE_NOTICE_OF_CANCELLATION",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {                                                                                                       
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "NoticeOfCancellationPage",Path = "/:site/projectfinance/newmainagreementtable/mainagreementtable/:id/function/noticeofcancellation/"},
+
+                        }
+                },
+new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "PROJECT_FINANCE_ALL_MAIN_AGREEMENT_TABLE_MAIN_AGREEMENT_TABLE_NOTICE_OF_CANCELLATION",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {                                                                                                       
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "NoticeOfCancellationPage",Path = "/:site/projectfinance/allmainagreementtable/mainagreementtable/:id/function/noticeofcancellation/"},
+
+                        }
+                },
