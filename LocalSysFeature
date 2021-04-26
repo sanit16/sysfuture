@@ -610,7 +610,7 @@ new SysFeatureGroupControllerMappingView {
 
                         }
                 },
-new SysFeatureGroupControllerMappingView {
+                new SysFeatureGroupControllerMappingView {
                     ControllerName = "MainAgreementTable",
                     GroupId = "PROJECT_FINANCE_ALL_MAIN_AGREEMENT_TABLE_MAIN_AGREEMENT_TABLE_NOTICE_OF_CANCELLATION",
                     FeatureType = FeatureType.FUNCTION,
@@ -629,4 +629,126 @@ new SysFeatureGroupControllerMappingView {
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CustomerTransactionItemPage",Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/relatedinfo/custtransaction/:id"},
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CustomerTransactionListPage",Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/relatedinfo/custtransaction/"},
                     }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "BusinessCollateralAgmTable",
+                    GroupId = "FACTORING_NEW_BUSINESS_COLLATERAL_AGM_TABLE_FUNCTION_GENERATE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenBusCollateralAgmAddendumPage",Path = "/:site/factoring/newbusinesscollateralagmtable/businesscollateralagmtable/function/generateaddendum/"},
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenBusCollateralAgmAddendumPage",Path = "/:site/factoring/newbusinesscollateralagmtable/businesscollateralagmtable/:id/function/generateaddendum/"},
+                        }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "BusinessCollateralAgmTable",
+                    GroupId = "BOND_NEW_BUSINESS_COLLATERAL_AGM_TABLE_FUNCTION_GENERATE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenBusCollateralAgmAddendumPage",Path = "/:site/bond/newbusinesscollateralagmtable/businesscollateralagmtable/function/generateaddendum/"},
+                        }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "BusinessCollateralAgmTable",
+                    GroupId = "HIRE_PURCHASE_NEW_BUSINESS_COLLATERAL_AGM_TABLE_FUNCTION_GENERATE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenBusCollateralAgmAddendumPage",Path = "/:site/hirepurchase/newbusinesscollateralagmtable/businesscollateralagmtable/function/generateaddendum/"},
+                        }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "BusinessCollateralAgmTable",
+                    GroupId = "LC_DLC_NEW_BUSINESS_COLLATERAL_AGM_TABLE_FUNCTION_GENERATE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenBusCollateralAgmAddendumPage",Path = "/:site/lcdlc/newbusinesscollateralagmtable/businesscollateralagmtable/function/generateaddendum/"},
+                        }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "BusinessCollateralAgmTable",
+                    GroupId = "LEASING_NEW_BUSINESS_COLLATERAL_AGM_TABLE_FUNCTION_GENERATE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenBusCollateralAgmAddendumPage",Path = "/:site/leasing/newbusinesscollateralagmtable/businesscollateralagmtable/function/generateaddendum/"},
+                        }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "BusinessCollateralAgmTable",
+                    GroupId = "PROJECT_FINANCE_NEW_BUSINESS_COLLATERAL_AGM_TABLE_FUNCTION_GENERATE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenBusCollateralAgmAddendumPage",Path = "/:site/projectfinance/newbusinesscollateralagmtable/businesscollateralagmtable/function/generateaddendum/"},
+                        }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "BusinessCollateralAgmTable",
+                    GroupId = "FACTORING_ALL_BUSINESS_COLLATERAL_AGM_TABLE_FUNCTION_GENERATE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenBusCollateralAgmAddendumPage",Path = "/:site/factoring/allbusinesscollateralagmtable/businesscollateralagmtable/function/generateaddendum/"},
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenBusCollateralAgmAddendumPage",Path = "/:site/factoring/allbusinesscollateralagmtable/businesscollateralagmtable/:id/function/generateaddendum/"},
+                        }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "BusinessCollateralAgmTable",
+                    GroupId = "BOND_ALL_BUSINESS_COLLATERAL_AGM_TABLE_FUNCTION_GENERATE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenBusCollateralAgmAddendumPage",Path = "/:site/bond/allbusinesscollateralagmtable/businesscollateralagmtable/function/generateaddendum/"},
+                        }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "BusinessCollateralAgmTable",
+                    GroupId = "HIRE_PURCHASE_ALL_BUSINESS_COLLATERAL_AGM_TABLE_FUNCTION_GENERATE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenBusCollateralAgmAddendumPage",Path = "/:site/hirepurchase/allbusinesscollateralagmtable/businesscollateralagmtable/function/generateaddendum/"},
+                        }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "BusinessCollateralAgmTable",
+                    GroupId = "LC_DLC_ALL_BUSINESS_COLLATERAL_AGM_TABLE_FUNCTION_GENERATE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenBusCollateralAgmAddendumPage",Path = "/:site/lcdlc/allbusinesscollateralagmtable/businesscollateralagmtable/function/generateaddendum/"},
+                        }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "BusinessCollateralAgmTable",
+                    GroupId = "LEASING_ALL_BUSINESS_COLLATERAL_AGM_TABLE_FUNCTION_GENERATE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenBusCollateralAgmAddendumPage",Path = "/:site/leasing/allbusinesscollateralagmtable/businesscollateralagmtable/function/generateaddendum/"},
+                        }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "BusinessCollateralAgmTable",
+                    GroupId = "PROJECT_FINANCE_ALL_BUSINESS_COLLATERAL_AGM_TABLE_FUNCTION_GENERATE_ADDENDUM",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "GenBusCollateralAgmAddendumPage",Path = "/:site/projectfinance/allbusinesscollateralagmtable/businesscollateralagmtable/function/generateaddendum/"},
+                        }
                 },
