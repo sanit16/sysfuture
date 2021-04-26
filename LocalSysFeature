@@ -629,4 +629,13 @@ new SysFeatureGroupControllerMappingView {
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CustomerTransactionItemPage",Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/relatedinfo/custtransaction/:id"},
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CustomerTransactionListPage",Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/relatedinfo/custtransaction/"},
                     }
-                },
+                }, new SysFeatureGroupControllerMappingView {
+                    ControllerName = "CustomerTable",
+                    GroupId = "CUSTOMER_TABLE_RETENTION_TRANSACTION",
+                    FeatureType = FeatureType.RELATEDINFO,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "RetentionTransactionItemPage",Path = "/:site/masterinformation/customertable/:id/relatedinfo/retentiontransaction/:id"},
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "RetentionTransactionListPage",Path = "/:site/masterinformation/customertable/:id/relatedinfo/retentiontransaction/"}
+                        }
+                    },
