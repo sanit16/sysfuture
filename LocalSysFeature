@@ -639,3 +639,13 @@ new SysFeatureGroupControllerMappingView {
                             new SysFeatureTableView { ParentFeatureId = null, FeatureId = "RetentionTransactionListPage",Path = "/:site/masterinformation/customertable/:id/relatedinfo/retentiontransaction/"}
                         }
                     },
+                                     new SysFeatureGroupControllerMappingView {
+                    ControllerName = "CreditAppRequestTable",
+                    GroupId = "FACTORING_CREDIT_APP_REQUEST_TABLE_RETENTION_CONDITION_TRANS_RETENTION_TRANSACTION",
+                    FeatureType = FeatureType.RELATEDINFO,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "RetentionTransactionItemPage",Path = "/:site/factoring/creditapprequesttable/:id/relatedinfo/retentionconditiontrans/:id/relatedinfo/retentiontransaction/:id"},
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "RetentionTransactionListPage",Path = "/:site/factoring/creditapprequesttable/:id/relatedinfo/retentionconditiontrans/:id/relatedinfo/retentiontransaction/"}
+                        }
+                },
