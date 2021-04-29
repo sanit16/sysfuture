@@ -912,4 +912,5 @@ new SysFeatureGroupControllerMappingView {
                             {
                                 new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoItemPage",Path = "/:site/invoiceandcollection/inquiry/inquirywithdrawallineoutstand/:id/relatedinfo/collectionfollowup/:id/relatedinfo/memotrans/:id"},
                                 new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoListPage",Path = "/:site/invoiceandcollection/inquiry/inquirywithdrawallineoutstand/:id/relatedinfo/collectionfollowup/:id/relatedinfo/memotrans/"}
-                     
+                            }
+                   }
