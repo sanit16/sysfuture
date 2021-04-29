@@ -913,4 +913,14 @@ new SysFeatureGroupControllerMappingView {
                                 new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoItemPage",Path = "/:site/invoiceandcollection/inquiry/inquirywithdrawallineoutstand/:id/relatedinfo/collectionfollowup/:id/relatedinfo/memotrans/:id"},
                                 new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoListPage",Path = "/:site/invoiceandcollection/inquiry/inquirywithdrawallineoutstand/:id/relatedinfo/collectionfollowup/:id/relatedinfo/memotrans/"}
                             }
-                   }
+                   }  new SysFeatureGroupControllerMappingView
+                     {
+                    ControllerName = "InquiryPurchaseLineOutstanding",
+                    GroupId = "INQUIRY_PURCHASE_LINE_OUTSTANDING_PDC",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "PdcItemPage",Path = "/:site/invoiceandcollection/inquiry/inquirypurchaselineoutstanding/:id/relatedinfo/pdc/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "PdcListPage",Path = "/:site/invoiceandcollection/inquiry/inquirypurchaselineoutstanding/:id/relatedinfo/pdc/"}
+                            }
+                },
