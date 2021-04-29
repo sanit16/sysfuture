@@ -916,3 +916,14 @@ new SysFeatureGroupControllerMappingView {
                             }
                 },
                           
+                   }  new SysFeatureGroupControllerMappingView
+                     {
+                    ControllerName = "InquiryPurchaseLineOutstanding",
+                    GroupId = "INQUIRY_PURCHASE_LINE_OUTSTANDING_PDC",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "PdcItemPage",Path = "/:site/invoiceandcollection/inquiry/inquirypurchaselineoutstanding/:id/relatedinfo/pdc/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "PdcListPage",Path = "/:site/invoiceandcollection/inquiry/inquirypurchaselineoutstanding/:id/relatedinfo/pdc/"}
+                            }
+                },
