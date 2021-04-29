@@ -927,3 +927,13 @@ new SysFeatureGroupControllerMappingView {
                                 new SysFeatureTableView { ParentFeatureId = null, FeatureId = "PdcListPage",Path = "/:site/invoiceandcollection/inquiry/inquirypurchaselineoutstanding/:id/relatedinfo/pdc/"}
                             }
                 },
+                new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MessengerJobTable",
+                    GroupId = "MESSENGER_JOB_TEBLE_JOB_CHEQUE_TABLE",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ChequeItemPage",Path = "/:site/invoiceandcollection/messenger/messengerjobtable/:id/relatedinfo/jobchequetable/:id"},
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ChequeListPage",Path = "/:site/invoiceandcollection/messenger/messengerjobtable/:id/relatedinfo/jobchequetable/"},
+                    }
+                },
