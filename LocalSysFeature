@@ -893,4 +893,23 @@ new SysFeatureGroupControllerMappingView {
                             new SysFeatureTableView { ParentFeatureId = null, FeatureId = "RetentionTransactionItemPage",Path = "/:site/factoring/creditapprequesttable/:id/relatedinfo/retentionconditiontrans/:id/relatedinfo/retentiontransaction/:id"},
                             new SysFeatureTableView { ParentFeatureId = null, FeatureId = "RetentionTransactionListPage",Path = "/:site/factoring/creditapprequesttable/:id/relatedinfo/retentionconditiontrans/:id/relatedinfo/retentiontransaction/"}
                         }
-                },
+                },       new SysFeatureGroupControllerMappingView
+                   {
+                    ControllerName = "InquiryPurchaseLineOutstanding",
+                    GroupId = "INQUIRY_PURCHASE_LINE_OUTSTANDING_COLLECTION_FOLLOW_UP_MEMO_TRANS",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoItemPage",Path = "/:site/invoiceandcollection/inquiry/inquirypurchaselineoutstanding/:id/relatedinfo/collectionfollowup/:id/relatedinfo/memotrans/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoListPage",Path = "/:site/invoiceandcollection/inquiry/inquirypurchaselineoutstanding/:id/relatedinfo/collectionfollowup/:id/relatedinfo/memotrans/"}
+                            }
+                },  new SysFeatureGroupControllerMappingView
+                   {
+                    ControllerName = "InquiryWithdrawalLineOutstand",
+                    GroupId = "INQUIRY_WITHDRAWAL_LINE_OUTSTAND_COLLECTION_FOLLOW_UP_MEMO_TRANS",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoItemPage",Path = "/:site/invoiceandcollection/inquiry/inquirywithdrawallineoutstand/:id/relatedinfo/collectionfollowup/:id/relatedinfo/memotrans/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoListPage",Path = "/:site/invoiceandcollection/inquiry/inquirywithdrawallineoutstand/:id/relatedinfo/collectionfollowup/:id/relatedinfo/memotrans/"}
+                     
