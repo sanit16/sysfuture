@@ -893,7 +893,8 @@ new SysFeatureGroupControllerMappingView {
                             new SysFeatureTableView { ParentFeatureId = null, FeatureId = "RetentionTransactionItemPage",Path = "/:site/factoring/creditapprequesttable/:id/relatedinfo/retentionconditiontrans/:id/relatedinfo/retentiontransaction/:id"},
                             new SysFeatureTableView { ParentFeatureId = null, FeatureId = "RetentionTransactionListPage",Path = "/:site/factoring/creditapprequesttable/:id/relatedinfo/retentionconditiontrans/:id/relatedinfo/retentiontransaction/"}
                         }
-                },       new SysFeatureGroupControllerMappingView
+                },       
+                new SysFeatureGroupControllerMappingView
                    {
                     ControllerName = "InquiryPurchaseLineOutstanding",
                     GroupId = "INQUIRY_PURCHASE_LINE_OUTSTANDING_COLLECTION_FOLLOW_UP_MEMO_TRANS",
