@@ -489,6 +489,7 @@ new SysFeatureGroupControllerMappingView
                       //  new SysFeatureTableView { ParentFeatureId = null, FeatureId = "InvoiceLineItemPage",Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/invoiceline-child/:id"},
                     }
                 },
+                  new SysFeatureGroupControllerMappingView
                  {
                     ControllerName = "InquiryPurchaseLineOutstanding",
                     GroupId = "COLLECTION_FOLLOW_UP_BUYER_RECEIPT_TABLE",
@@ -935,5 +936,16 @@ new SysFeatureGroupControllerMappingView {
                     {
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ChequeItemPage",Path = "/:site/invoiceandcollection/messenger/messengerjobtable/:id/relatedinfo/jobchequetable/:id"},
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ChequeListPage",Path = "/:site/invoiceandcollection/messenger/messengerjobtable/:id/relatedinfo/jobchequetable/"},
+                    }
+                },
+                 new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "InvoiceTable",
+                    GroupId = "INVOICE_TABLE_PAYMENT_HISTORY",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "PaymentHistoryItemPage", Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/relatedinfo/paymenthistory/:id" },
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "PaymentHistoryListPage", Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/relatedinfo/paymenthistory/" },
                     }
                 },
