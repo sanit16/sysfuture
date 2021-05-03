@@ -954,3 +954,24 @@ new SysFeatureGroupControllerMappingView {
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "PaymentHistoryListPage", Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/relatedinfo/paymenthistory/" },
                     }
                 },
+   new SysFeatureGroupControllerMappingView {
+                    ControllerName = "CreditAppTable",
+                    GroupId = "PROJECT_FINANCE_CREDIT_APP_TABLE_WITHDRAWAL_TABLE_WITHDRAWAL_MEMO_TRANS",
+                    FeatureType = FeatureType.RELATEDINFO,
+                        SysFeatureTables = new List<SysFeatureTableView>()
+                        {
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoItemPage",Path = "/:site/projectfinance/creditapptable/:id/relatedinfo/withdrawaltablewithdrawal/:id/relatedinfo/memotrans/:id"},
+                            new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoListPage",Path = "/:site/projectfinance/creditapptable/:id/relatedinfo/withdrawaltablewithdrawal/:id/relatedinfo/memotrans/"}
+                        }
+                }, 
+                  new SysFeatureGroupControllerMappingView
+                     {
+                    ControllerName = "InquiryWithdrawalLineOutstand",
+                    GroupId = "INQUIRY_WITHDRAWAL_LINE_OUTSTAND_PDC",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "PdcItemPage",Path = "/:site/invoiceandcollection/inquiry/inquirywithdrawallineoutstand/:id/relatedinfo/pdc/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "PdcListPage",Path = "/:site/invoiceandcollection/inquiry/inquirywithdrawallineoutstand/:id/relatedinfo/pdc/"}
+                            }
+                },
