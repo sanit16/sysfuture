@@ -489,6 +489,7 @@ new SysFeatureGroupControllerMappingView
                       //  new SysFeatureTableView { ParentFeatureId = null, FeatureId = "InvoiceLineItemPage",Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/invoiceline-child/:id"},
                     }
                 },
+                  new SysFeatureGroupControllerMappingView
                  {
                     ControllerName = "InquiryPurchaseLineOutstanding",
                     GroupId = "COLLECTION_FOLLOW_UP_BUYER_RECEIPT_TABLE",
@@ -893,8 +894,13 @@ new SysFeatureGroupControllerMappingView {
                             new SysFeatureTableView { ParentFeatureId = null, FeatureId = "RetentionTransactionItemPage",Path = "/:site/factoring/creditapprequesttable/:id/relatedinfo/retentionconditiontrans/:id/relatedinfo/retentiontransaction/:id"},
                             new SysFeatureTableView { ParentFeatureId = null, FeatureId = "RetentionTransactionListPage",Path = "/:site/factoring/creditapprequesttable/:id/relatedinfo/retentionconditiontrans/:id/relatedinfo/retentiontransaction/"}
                         }
+<<<<<<< HEAD
                 },       
                 new SysFeatureGroupControllerMappingView
+=======
+                }, new SysFeatureGroupControllerMappingView
+                },       new SysFeatureGroupControllerMappingView
+>>>>>>> bd98a11a95075e2185636232f05a52a6e0504052
                    {
                     ControllerName = "InquiryPurchaseLineOutstanding",
                     GroupId = "INQUIRY_PURCHASE_LINE_OUTSTANDING_COLLECTION_FOLLOW_UP_MEMO_TRANS",
@@ -910,7 +916,41 @@ new SysFeatureGroupControllerMappingView {
                     GroupId = "INQUIRY_WITHDRAWAL_LINE_OUTSTAND_COLLECTION_FOLLOW_UP_MEMO_TRANS",
                     FeatureType = FeatureType.RELATEDINFO,
                     SysFeatureTables = new List<SysFeatureTableView>()
-                            {
+                            {                           
                                 new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoItemPage",Path = "/:site/invoiceandcollection/inquiry/inquirywithdrawallineoutstand/:id/relatedinfo/collectionfollowup/:id/relatedinfo/memotrans/:id"},
                                 new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoListPage",Path = "/:site/invoiceandcollection/inquiry/inquirywithdrawallineoutstand/:id/relatedinfo/collectionfollowup/:id/relatedinfo/memotrans/"}
-                     
+                            }
+                },
+                          
+                   }  new SysFeatureGroupControllerMappingView
+                     {
+                    ControllerName = "InquiryPurchaseLineOutstanding",
+                    GroupId = "INQUIRY_PURCHASE_LINE_OUTSTANDING_PDC",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                            {
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "PdcItemPage",Path = "/:site/invoiceandcollection/inquiry/inquirypurchaselineoutstanding/:id/relatedinfo/pdc/:id"},
+                                new SysFeatureTableView { ParentFeatureId = null, FeatureId = "PdcListPage",Path = "/:site/invoiceandcollection/inquiry/inquirypurchaselineoutstanding/:id/relatedinfo/pdc/"}
+                            }
+                },
+                new SysFeatureGroupControllerMappingView {
+                    ControllerName = "MessengerJobTable",
+                    GroupId = "MESSENGER_JOB_TEBLE_JOB_CHEQUE_TABLE",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ChequeItemPage",Path = "/:site/invoiceandcollection/messenger/messengerjobtable/:id/relatedinfo/jobchequetable/:id"},
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ChequeListPage",Path = "/:site/invoiceandcollection/messenger/messengerjobtable/:id/relatedinfo/jobchequetable/"},
+                    }
+                },
+                 new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "InvoiceTable",
+                    GroupId = "INVOICE_TABLE_PAYMENT_HISTORY",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "PaymentHistoryItemPage", Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/relatedinfo/paymenthistory/:id" },
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "PaymentHistoryListPage", Path = "/:site/invoiceandcollection/inquiry/invoicetable/:id/relatedinfo/paymenthistory/" },
+                    }
+                },
