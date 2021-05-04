@@ -981,3 +981,136 @@ new SysFeatureGroupControllerMappingView {
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ServiceFeeTransListPage", Path = "/:site/factoring/creditapptable/:id/relatedinfo/purchasetablepurchase/:id/relatedinfo/attachment/" }
                     }
                 },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "FACTORING_ALL_MAIN_AGREEMENT_TABLE_SERVICE_FEE_TRANS_COPY_SERVICE_FEE_CONDITION_TRANS_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyServiceFeeConditionTransFromCAPage", Path = "/:site/factoring/allmainagreementtable/mainagreementtable/:id/relatedinfo/servicefeetrans/function/copyservicefeeconditiontransfromca/" },
+
+                    }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "FACTORING_NEW_MAIN_AGREEMENT_TABLE_SERVICE_FEE_TRANS_COPY_SERVICE_FEE_CONDITION_TRANS_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyServiceFeeConditionTransFromCAPage", Path = "/:site/factoring/newmainagreementtable/mainagreementtable/:id/relatedinfo/servicefeetrans/function/copyservicefeeconditiontransfromca/" },
+
+                    }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "BOND_NEW_MAIN_AGREEMENT_TABLE_SERVICE_FEE_TRANS_COPY_SERVICE_FEE_CONDITION_TRANS_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyServiceFeeConditionTransFromCAPage", Path = "/:site/bond/newmainagreementtable/mainagreementtable/:id/relatedinfo/servicefeetrans/function/copyservicefeeconditiontransfromca/" },
+
+                    }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "BOND_ALL_MAIN_AGREEMENT_TABLE_SERVICE_FEE_TRANS_COPY_SERVICE_FEE_CONDITION_TRANS_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyServiceFeeConditionTransFromCAPage", Path = "/:site/bond/allmainagreementtable/mainagreementtable/:id/relatedinfo/servicefeetrans/function/copyservicefeeconditiontransfromca/" },
+
+                    }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "HIRE_PURCHASE_NEW_MAIN_AGREEMENT_TABLE_SERVICE_FEE_TRANS_COPY_SERVICE_FEE_CONDITION_TRANS_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyServiceFeeConditionTransFromCAPage", Path = "/:site/hirepurchase/newmainagreementtable/mainagreementtable/:id/relatedinfo/servicefeetrans/function/copyservicefeeconditiontransfromca/" },
+
+                    }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "HIRE_PURCHASE_ALL_MAIN_AGREEMENT_TABLE_SERVICE_FEE_TRANS_COPY_SERVICE_FEE_CONDITION_TRANS_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyServiceFeeConditionTransFromCAPage", Path = "/:site/hirepurchase/allmainagreementtable/mainagreementtable/:id/relatedinfo/servicefeetrans/function/copyservicefeeconditiontransfromca/" },
+
+                    }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LEASING_NEW_MAIN_AGREEMENT_TABLE_SERVICE_FEE_TRANS_COPY_SERVICE_FEE_CONDITION_TRANS_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyServiceFeeConditionTransFromCAPage", Path = "/:site/leasing/newmainagreementtable/mainagreementtable/:id/relatedinfo/servicefeetrans/function/copyservicefeeconditiontransfromca/" },
+
+                    }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LEASING_ALL_MAIN_AGREEMENT_TABLE_SERVICE_FEE_TRANS_COPY_SERVICE_FEE_CONDITION_TRANS_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyServiceFeeConditionTransFromCAPage", Path = "/:site/leasing/allmainagreementtable/mainagreementtable/:id/relatedinfo/servicefeetrans/function/copyservicefeeconditiontransfromca/" },
+
+                    }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LC_DLC_ALL_MAIN_AGREEMENT_TABLE_SERVICE_FEE_TRANS_COPY_SERVICE_FEE_CONDITION_TRANS_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyServiceFeeConditionTransFromCAPage", Path = "/:site/lcdlc/allmainagreementtable/mainagreementtable/:id/relatedinfo/servicefeetrans/function/copyservicefeeconditiontransfromca/" },
+
+                    }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "LC_DLC_NEW_MAIN_AGREEMENT_TABLE_SERVICE_FEE_TRANS_COPY_SERVICE_FEE_CONDITION_TRANS_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyServiceFeeConditionTransFromCAPage", Path = "/:site/lcdlc/newmainagreementtable/mainagreementtable/:id/relatedinfo/servicefeetrans/function/copyservicefeeconditiontransfromca/" },
+
+                    }
+                },
+
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "PROJECT_FINANCE_NEW_MAIN_AGREEMENT_TABLE_SERVICE_FEE_TRANS_COPY_SERVICE_FEE_CONDITION_TRANS_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyServiceFeeConditionTransFromCAPage", Path = "/:site/projectfinance/newmainagreementtable/mainagreementtable/:id/relatedinfo/servicefeetrans/function/copyservicefeeconditiontransfromca/" },
+
+                    }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MainAgreementTable",
+                    GroupId = "PROJECT_FINANCE_ALL_MAIN_AGREEMENT_TABLE_SERVICE_FEE_TRANS_COPY_SERVICE_FEE_CONDITION_TRANS_FROM_CA",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyServiceFeeConditionTransFromCAPage", Path = "/:site/projectfinance/allmainagreementtable/mainagreementtable/:id/relatedinfo/servicefeetrans/function/copyservicefeeconditiontransfromca/" },
+
+                    }
+                },
