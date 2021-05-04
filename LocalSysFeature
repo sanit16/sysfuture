@@ -975,3 +975,14 @@ new SysFeatureGroupControllerMappingView {
                                 new SysFeatureTableView { ParentFeatureId = null, FeatureId = "PdcListPage",Path = "/:site/invoiceandcollection/inquiry/inquirywithdrawallineoutstand/:id/relatedinfo/pdc/"}
                             }
                 },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "CreditAppTable",
+                    GroupId = "FACTORING_CREDIT_APP_TABLE_PURCHASE_TABLE_PURCHASE_ATTACHMENT",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ServiceFeeTransItemPage", Path = "/:site/factoring/creditapptable/:id/relatedinfo/purchasetablepurchase/:id/relatedinfo/attachment/:id" },
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ServiceFeeTransListPage", Path = "/:site/factoring/creditapptable/:id/relatedinfo/purchasetablepurchase/:id/relatedinfo/attachment/" }
+                    }
+                },
