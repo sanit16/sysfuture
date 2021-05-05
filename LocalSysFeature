@@ -1113,4 +1113,15 @@ new SysFeatureGroupControllerMappingView {
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CopyServiceFeeConditionTransFromCAPage", Path = "/:site/projectfinance/allmainagreementtable/mainagreementtable/:id/relatedinfo/servicefeetrans/function/copyservicefeeconditiontransfromca/" },
 
                     }
+                }, new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "CreditAppTable",
+                    GroupId = "PROJECT_FINANCE_CREDIT_APP_TABLE_WITHDRAWAL_TABLE_WITHDRAWAL_WITHDRAWAL_LINE_WITHDRAWAL_CHILD_INTEREST_REALIZED_TRANS",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "InterestRealizedTransListPage", Path = "/:site/projectfinance/creditapptable/:id/relatedinfo/withdrawaltablewithdrawal/:id/withdrawallinewithdrawal-child/:id/relatedinfo/interestrealizedtrans/" },
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "InterestRealizedTransItemPage", Path = "/:site/projectfinance/creditapptable/:id/relatedinfo/withdrawaltablewithdrawal/:id/withdrawallinewithdrawal-child/:id/relatedinfo/interestrealizedtrans/:id" }
+
+                    }                                                                                                                  
                 },
