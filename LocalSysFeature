@@ -1125,3 +1125,14 @@ new SysFeatureGroupControllerMappingView {
 
                     }                                                                                                                  
                 },
+                 new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "InquiryWithdrawalLineOutstand",
+                    GroupId = "INQUIRY_PURCHASE_LINE_OUTSTANDING_MESSENGER_REQUEST",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MessengerRequestItemPage", Path = "/:site/invoiceandcollection/inquiry/inquirywithdrawallineoutstand/:id/relatedinfo/messengerrequest/:id" },
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MessengerRequestListPage", Path = "/:site/invoiceandcollection/inquiry/inquirywithdrawallineoutstand/:id/relatedinfo/messengerrequest/" }
+                    }
+                },
