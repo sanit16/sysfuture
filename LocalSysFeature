@@ -1170,3 +1170,14 @@ new SysFeatureGroupControllerMappingView {
 
                     }
                 },
+                 new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MessengerJobTable",
+                    GroupId = "MESSENGER_JOB_ASSIGN_MESSENGER_JOB_TABLE",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "AssignPage", Path = "/:site/invoiceandcollection/messenger/messengerjobtable/:id/function/assignmessengerjobtable/" },
+
+                    }
+                },
