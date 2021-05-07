@@ -1180,7 +1180,10 @@ new SysFeatureGroupControllerMappingView {
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "AssignPage", Path = "/:site/invoiceandcollection/messenger/messengerjobtable/:id/function/assignmessengerjobtable/" },
 
                     }
-                }, {
+                },
+                
+                      new SysFeatureGroupControllerMappingView
+                {
                     ControllerName = "CreditAppTable",
                     GroupId = "PROJECT_FINANCE_CREDIT_APP_TABLE_WITHDRAWAL_TABLE_WITHDRAWAL_PROJECT_PROGRESS_MEMO_TRANS",
                     FeatureType = FeatureType.RELATEDINFO,
@@ -1190,3 +1193,14 @@ new SysFeatureGroupControllerMappingView {
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoListPage", Path = "/:site/projectfinance/creditapptable/:id/relatedinfo/withdrawaltablewithdrawal/:id/relatedinfo/projectprogress/:id/relatedinfo/memotrans/" }
                     }
                 },
+                      new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "CreditAppTable",
+                    GroupId = "PROJECT_FINANCE_CREDIT_APP_TABLE_WITHDRAWAL_TABLE_WITHDRAWAL_PROJECT_PROGRESS_ATTACHMENT",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "AttachmentItemPage", Path = "/:site/projectfinance/creditapptable/:id/relatedinfo/withdrawaltablewithdrawal/:id/relatedinfo/projectprogress/:id/relatedinfo/attachment/" },
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "AttachmentListPage", Path = "/:site/projectfinance/creditapptable/:id/relatedinfo/withdrawaltablewithdrawal/:id/relatedinfo/projectprogress/:id/relatedinfo/attachment/:id" }
+                    }
+                }
