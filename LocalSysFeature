@@ -1180,4 +1180,13 @@ new SysFeatureGroupControllerMappingView {
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "AssignPage", Path = "/:site/invoiceandcollection/messenger/messengerjobtable/:id/function/assignmessengerjobtable/" },
 
                     }
+                }, {
+                    ControllerName = "CreditAppTable",
+                    GroupId = "PROJECT_FINANCE_CREDIT_APP_TABLE_WITHDRAWAL_TABLE_WITHDRAWAL_PROJECT_PROGRESS_MEMO_TRANS",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoItemPage", Path = "/:site/projectfinance/creditapptable/:id/relatedinfo/withdrawaltablewithdrawal/:id/relatedinfo/projectprogress/:id/relatedinfo/memotrans/:id" },
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "MemoListPage", Path = "/:site/projectfinance/creditapptable/:id/relatedinfo/withdrawaltablewithdrawal/:id/relatedinfo/projectprogress/:id/relatedinfo/memotrans/" }
+                    }
                 },
