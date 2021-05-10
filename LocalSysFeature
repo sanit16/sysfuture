@@ -1203,4 +1203,16 @@ new SysFeatureGroupControllerMappingView {
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "AttachmentItemPage", Path = "/:site/projectfinance/creditapptable/:id/relatedinfo/withdrawaltablewithdrawal/:id/relatedinfo/projectprogress/:id/relatedinfo/attachment/" },
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "AttachmentListPage", Path = "/:site/projectfinance/creditapptable/:id/relatedinfo/withdrawaltablewithdrawal/:id/relatedinfo/projectprogress/:id/relatedinfo/attachment/:id" }
                     }
+                },
+                //10052021
+                       new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "MessengerJobTable",
+                    GroupId = "MESSENGER_JOB_TEBLE_SERVICE_FEE_TRANS",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ServiceFeeTransItemPage",Path = "/:site/invoiceandcollection/messenger/messengerjobtable/:id/relatedinfo/servicefeetrans/:id"},
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "ServiceFeeTransListPage",Path = "/:site/invoiceandcollection/messenger/messengerjobtable/:id/relatedinfo/servicefeetrans/"},
+                    }
                 }
