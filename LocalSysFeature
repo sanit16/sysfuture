@@ -1284,3 +1284,119 @@ new SysFeatureGroupControllerMappingView {
                         new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CloseCreditLimitMemoListPage", Path = "/:site/projectfinance/creditapptable/:id/relatedinfo/closecreditlimit/:id/relatedinfo/memotrans/" },
                     }
                 },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "CreditAppTable",
+                    GroupId = "LEASING_CREDIT_APP_TABLE_INQUIRY_CUSTOMER-_BUYER_CREDIT_OUTSTANDING",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView
+                        {
+                            ParentFeatureId = null,
+                            FeatureId = "InquiryCustomerBuyerCreditOutstandingItemPage",
+                            Path = "/:site/leasing/creditapptable/:id/relatedinfo/customer-buyercreditoutstanding/:id"
+                        },
+                        new SysFeatureTableView
+                        {
+                            ParentFeatureId = null,
+                            FeatureId = "InquiryCustomerBuyerCreditOutstandingListPage",
+                            Path = "/:site/leasing/creditapptable/:id/relatedinfo/customer-buyercreditoutstanding/"
+                        }
+                    }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "CreditAppTable",
+                    GroupId = "PROJECT_FINANCE_CREDIT_APP_TABLE_INQUIRY_CUSTOMER-_BUYER_CREDIT_OUTSTANDING",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView
+                        {
+                            ParentFeatureId = null,
+                            FeatureId = "InquiryCustomerBuyerCreditOutstandingItemPage",
+                            Path = "/:site/projectfinance/creditapptable/:id/relatedinfo/customer-buyercreditoutstanding/:id"
+                        },
+                        new SysFeatureTableView
+                        {
+                            ParentFeatureId = null,
+                            FeatureId = "InquiryCustomerBuyerCreditOutstandingListPage",
+                            Path = "/:site/projectfinance/creditapptable/:id/relatedinfo/customer-buyercreditoutstanding/"
+                        }
+                    }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "CreditAppTable",
+                    GroupId = "FACTORING_CREDIT_APP_TABLE_INQUIRY_CUSTOMER-_BUYER_CREDIT_OUTSTANDING",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "InquiryCustomerBuyerCreditOutstandingItemPage", Path = "/:site/factoring/creditapptable/:id/relatedinfo/customer-buyercreditoutstanding/:id" },
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "InquiryCustomerBuyerCreditOutstandingListPage", Path = "/:site/factoring/creditapptable/:id/relatedinfo/customer-buyercreditoutstanding/" }
+                    }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "CreditAppTable",
+                    GroupId = "BOND_CREDIT_APP_TABLE_INQUIRY_CUSTOMER-_BUYER_CREDIT_OUTSTANDING",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView
+                        {
+                            ParentFeatureId = null,
+                            FeatureId = "InquiryCustomerBuyerCreditOutstandingItemPage",
+                            Path = "/:site/bond/creditapptable/:id/relatedinfo/customer-buyercreditoutstanding/:id"
+                        },
+                        new SysFeatureTableView
+                        {
+                            ParentFeatureId = null,
+                            FeatureId = "InquiryCustomerBuyerCreditOutstandingListPage",
+                            Path = "/:site/bond/creditapptable/:id/relatedinfo/customer-buyercreditoutstanding/"
+                        }
+                    }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "CreditAppTable",
+                    GroupId = "HIRE_PURCHASE_CREDIT_APP_TABLE_INQUIRY_CUSTOMER-_BUYER_CREDIT_OUTSTANDING",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView
+                        {
+                            ParentFeatureId = null,
+                            FeatureId = "InquiryCustomerBuyerCreditOutstandingItemPage",
+                            Path = "/:site/hirepurchase/creditapptable/:id/relatedinfo/customer-buyercreditoutstanding/:id"
+                        },
+                        new SysFeatureTableView
+                        {
+                            ParentFeatureId = null,
+                            FeatureId = "InquiryCustomerBuyerCreditOutstandingListPage",
+                            Path = "/:site/hirepurchase/creditapptable/:id/relatedinfo/customer-buyercreditoutstanding/"
+                        }
+                    }
+                },
+                new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "CreditAppTable",
+                    GroupId = "LC_DLC_CREDIT_APP_TABLE_INQUIRY_CUSTOMER-_BUYER_CREDIT_OUTSTANDING",
+                    FeatureType = FeatureType.RELATEDINFO,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView
+                        {
+                            ParentFeatureId = null,
+                            FeatureId = "InquiryCustomerBuyerCreditOutstandingItemPage",
+                            Path = "/:site/lcdlc/creditapptable/:id/relatedinfo/customer-buyercreditoutstanding/:id"
+                        },
+                        new SysFeatureTableView
+                        {
+                            ParentFeatureId = null,
+                            FeatureId = "InquiryCustomerBuyerCreditOutstandingListPage",
+                            Path = "/:site/lcdlc/creditapptable/:id/relatedinfo/customer-buyercreditoutstanding/"
+                        }
+                    }
+                },
