@@ -1399,4 +1399,15 @@ new SysFeatureGroupControllerMappingView {
                             Path = "/:site/lcdlc/creditapptable/:id/relatedinfo/customer-buyercreditoutstanding/"
                         }
                     }
+                }, 
+                //7620212
+                  new SysFeatureGroupControllerMappingView
+                {
+                    ControllerName = "InquiryPurchaseLineOutstanding",
+                    GroupId = "COLLECTION_FOLLOW_UP_BUYER_RECEIPT_TABLE_CANCEL_BUYER_RECEIPT_TABLE",
+                    FeatureType = FeatureType.FUNCTION,
+                    SysFeatureTables = new List<SysFeatureTableView>()
+                    {
+                        new SysFeatureTableView { ParentFeatureId = null, FeatureId = "CancelBuyerReceiptTablePage", Path = "/:site/invoiceandcollection/inquiry/inquirypurchaselineoutstanding/:id/relatedinfo/collectionfollowup/:id/relatedinfo/buyerreceipttable/:id/function/cancelbuyerreceipttable/" },
+                    }
                 },
